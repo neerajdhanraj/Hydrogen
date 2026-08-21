@@ -1,0 +1,12 @@
+test,scenario,eue_gwh,year,resolution_h
+transmission_20pct,reference,723.5149161943522,2016,6
+transmission_20pct,h2_central,521.3227402695245,2016,6
+transmission_35pct,reference,448.2716898427933,2016,6
+transmission_35pct,h2_central,287.5004478402595,2016,6
+transmission_50pct,reference,234.65119083660642,2016,6
+transmission_50pct,h2_central,126.02712216768177,2016,6
+national_h2,reference,448.2716898427933,2016,6
+national_h2,h2_central,287.5004478402595,2016,6
+exclude_kosovo,reference,448.2716898427935,2016,6
+exclude_kosovo,h2_rigid,719.6819540095155,2016,6
+exclude_kosovo,h2_central,287.5004478402596,2016,6

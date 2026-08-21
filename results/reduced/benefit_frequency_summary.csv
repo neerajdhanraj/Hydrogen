@@ -1,0 +1,9 @@
+configuration,improved_all_19,neutral_all_19,worsened_all_19,benefit_frequency_all_19_percent,benefit_frequency_stressed_12_percent,interpretation
+Rigid H2 production,0,2,17,0.0,,Inflexible production adds an adequacy burden in 17 of 19 held-out years.
+Flexible H2 + 1 TWh storage + 0 GW reconversion,0,19,0,0.0,0.0,Temporal flexibility neutralises the added H2 load but does not return electricity.
+0.5 TWh storage + 15 GW reconversion,9,7,3,47.4,75.0,Mean benefit is positive but three stressed weather years still worsen.
+1 TWh storage + 15 GW reconversion,12,7,0,63.2,100.0,All stressed years benefit and no held-out year worsens.
+2 TWh storage + 15 GW reconversion,12,7,0,63.2,100.0,All 19 years are shortage-free; seven were already shortage-free in the electricity reference.
+1 TWh storage + 3 GW reconversion,12,7,0,63.2,100.0,Even 3 GW return-to-power improves all 12 stressed years, although mean benefit is below the 9-15 GW plateau.
+1 TWh storage + 9 GW reconversion,12,7,0,63.2,100.0,All stressed years benefit; the tested ensemble-average benefit reaches the plateau.
+1 TWh storage + 15 GW reconversion,12,7,0,63.2,100.0,Central resilience case; 80.8% lower mean unserved energy than the electricity reference.

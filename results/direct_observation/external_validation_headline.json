@@ -1,0 +1,21 @@
+{
+  "test_years": 4,
+  "stressed_years": 3,
+  "reference_mean_eue_gwh": 40.96250258618529,
+  "rigid_mean_eue_gwh": 218.80476555092486,
+  "rigid_mean_burden_gwh": 177.84226296473958,
+  "flexible_max_abs_delta_vs_reference_gwh": 2.984279490192421e-13,
+  "central_mean_eue_gwh": 0.0,
+  "central_mean_avoided_gwh": 40.96250258618529,
+  "central_improved_stressed_years": 3,
+  "central_zero_eue_years": 4,
+  "first_tested_storage_twh": 0.6064272280713472,
+  "central_storage_twh": 1.2128544561426944,
+  "first_tested_power_gw": 3.6382126886498796,
+  "second_tested_power_gw": 10.91463806594964,
+  "central_power_gw": 18.191063443249398,
+  "resolution3h_stress_total_reference_gwh": 833.7964012616887,
+  "resolution3h_stress_total_h2_gwh": 3.966070322283775,
+  "resolution3h_fraction_avoided": 0.9952433587908484,
+  "robustness_min_fraction_avoided": 1.0
+}

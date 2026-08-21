@@ -1,0 +1,7 @@
+option,annual_screening_cost_meur,mean_eue_avoided_gwh,cost_per_mwh_eue_avoided_eur,note
+H2 + reconversion,617.5833607718969,159.72505447842232,3866.5403044537875,Incremental 15 GW H2-to-power module; assumes electrolysis and 1 TWh H2 storage already serve the H2 sector.
+H2 full-chain sensitivity,2183.0534992001926,159.72505447842232,13667.570853732948,30 GW electrolysis + 1 TWh H2 storage + 15 GW H2-to-power; conservative full-chain screening.
+Battery expansion,6758.4527927024,157.9747910526314,42781.84353129312,Incremental +60 GW inverter and +300 GWh battery energy capacity.
+Firm capacity +5 GW,301.17859661978576,158.60495394736805,1898.9230104359149,"5 GW OCGT capital/FOM proxy; fuel and carbon costs excluded, so this is a lower-bound fixed-cost screen."
+Demand response 5%,58.73916059352667,194.54346144736814,301.9333580091459,"Activation cost at model penalty of €300/MWh; controlled curtailment, not an investment cost."
+Transmission +20%,,-1.9932593587375443e-13,,Not costed because the six-region network has abstract line lengths and the expansion yields ~zero EUE benefit.

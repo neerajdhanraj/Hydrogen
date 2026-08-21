@@ -1,0 +1,38 @@
+{
+  "active_countries": [
+    "AT",
+    "BG",
+    "CH",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FR",
+    "GR",
+    "RO",
+    "SI"
+  ],
+  "n_active_countries": 12,
+  "network_countries": 36,
+  "n_network_countries": 36,
+  "n_cross_border_corridors": 80,
+  "osm_raw_buses": 6737,
+  "osm_raw_ac_branches": 8994,
+  "calibration_year": 2015,
+  "test_years": [
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "central_resolution_h": 6,
+  "resolution_check_h": 3,
+  "chosen_firm_peak_fraction": 0.65,
+  "calibration_rule": {
+    "max_eue_fraction_load": 0.0002,
+    "max_lole_h": 48
+  },
+  "data_boundary": "12 countries pass >=95% raw coverage for load, wind and solar in every 2015-2019 year; other OSM countries are passive transit nodes",
+  "interpretation_boundary": "PyPSA-Eur OSM-topology external validation with OPSD/ENTSO-E chronology; not a full nodal atlite/ERA5 PyPSA-Eur solve."
+}

@@ -1,0 +1,39 @@
+{
+  "network_scope": {
+    "active_countries": 34,
+    "country_corridors": 74,
+    "extra_passive_transit_countries": 0
+  },
+  "calibration": {
+    "year": 2015,
+    "resolution_h": 6,
+    "selected_firm_peak_fraction": 0.7,
+    "rule": "smallest tested fraction with EUE <=0.02% annual demand and LOLE <=48 h",
+    "0.65_LOLE_h": 114,
+    "0.70_LOLE_h": 30
+  },
+  "holdout_years": [
+    2016,
+    2017,
+    2018
+  ],
+  "2016": {
+    "reference_eue_gwh": 448.2716898427933,
+    "rigid_eue_gwh": 719.6819540095154,
+    "flexible_eue_gwh": 448.2716898427934,
+    "central_eue_gwh": 287.5004478402595,
+    "central_reduction_pct": 35.86468778764849
+  },
+  "normal_year_burden": {
+    "2017_rigid_eue_gwh": 20.54275334767144,
+    "2018_rigid_eue_gwh": 5.084677036626546,
+    "reference_flexible_central_eue_gwh": 0.0
+  },
+  "energy_power_boundary": {
+    "storage_9.65_twh_power_36.2_gw_eue_gwh": 87.67448309802595,
+    "storage_9.65_twh_power_54.3_gw_eue_gwh": 18.634895770961002,
+    "storage_9.65_twh_power_72.4_gw_eue_gwh": 0.0
+  },
+  "kosovo_exclusion": "No change in 2016 EUE ordering or values to displayed precision.",
+  "boundary": "All-34-country active PyPSA-Eur OSM-topology country-interface validation. National chronology is direct where available and transparently nearest-country proxied otherwise. This is not a native nodal atlite/PyPSA-Eur solve."
+}

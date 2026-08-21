@@ -1,0 +1,17 @@
+{
+  "held_out_years": "1999-2017",
+  "n_test_years": 19,
+  "reference_mean_eue_gwh": 197.79691828947335,
+  "reference_median_eue_gwh": 109.7629324999992,
+  "h2_reconversion_mean_eue_gwh": 38.07186381105101,
+  "h2_mean_eue_avoided_gwh": 159.72505447842232,
+  "h2_eue_avoided_ci95_gwh": [
+    87.77681590919026,
+    235.950959901077
+  ],
+  "h2_wilcoxon_p": 0.0003952260311912759,
+  "rigid_h2_mean_eue_gwh": 709.7495914035078,
+  "rigid_h2_mean_eue_change_gwh": 511.9526731140343,
+  "worst_test_year": 2006,
+  "worst_test_eue_gwh": 1159.4320724999989
+}

@@ -1,0 +1,5 @@
+technology,duration_h,mean_eue_gwh,mean_eue_avoided_gwh,improved_years,zero_shortage_years
+"Battery +15 GW, 100 h",100.0,0.0,662.8272466666659,3,3
+"Battery +15 GW, 24 h",24.0,164.5203508333328,498.3068958333331,3,1
+"Battery +15 GW, 4 h",4.0,567.8272466666658,95.00000000000006,3,0
+Hydrogen 1 TWh + 15 GW,66.66666666666667,241.12180413665638,421.7054425300095,3,0

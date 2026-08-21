@@ -1,0 +1,19 @@
+{
+  "window_start": "2006-01-29 00:00:00",
+  "window_end_exclusive": "2006-02-06 00:00:00",
+  "baseline_shortage_gw_energy_or_extreme": 804.6139424999994,
+  "h2_shortage_gw_energy_or_extreme": 501.9068344999995,
+  "h2_fuelcell_gw_energy_or_extreme": 302.707108,
+  "h2_electrolysis_gw_energy_or_extreme": 892.4312520775629,
+  "h2_h2_inventory_gwh_energy_or_extreme": 1000.0,
+  "baseline_window_eue_gwh": 804.6139424999994,
+  "h2_window_eue_gwh": 501.9068344999995,
+  "h2_window_fuelcell_output_gwh": 302.707108,
+  "h2_window_electrolysis_gwh": 892.4312520775629,
+  "h2_window_inventory_min_gwh": 0.0,
+  "h2_window_inventory_max_gwh": 1000.0,
+  "baseline_peak_shortfall_gw": 42.06699999999999,
+  "baseline_shortage_hours": 47,
+  "h2_peak_shortfall_gw": 42.06699999999999,
+  "h2_shortage_hours": 23
+}
