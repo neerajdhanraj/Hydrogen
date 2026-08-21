@@ -1,0 +1,12 @@
+parameter,value,unit,role,source_version
+Electrolysis efficiency,0.6963,p.u.,efficiency sensitivity,PyPSA technology-data v0.14.0 (2030)
+Hydrogen-to-power efficiency,0.4869,p.u.,efficiency sensitivity,PyPSA technology-data v0.14.0 (2030)
+Hydrogen storage CAPEX,6.010,EUR/kWh_H2,economic anchor,PyPSA technology-data v0.14.0 (2030)
+Hydrogen-to-power CAPEX,476.5391764,EUR/kW_e,economic anchor,PyPSA technology-data v0.14.0 (2030)
+Electrolyser CAPEX,436.5098856,EUR/kW_e,full-chain screening sensitivity,PyPSA technology-data v0.14.0 (2030)
+Battery inverter CAPEX,213.9279,EUR/kW_e,battery screening comparator,PyPSA technology-data v0.14.0 (2030)
+Battery energy CAPEX,189.861,EUR/kWh_e,battery screening comparator,PyPSA technology-data v0.14.0 (2030)
+OCGT CAPEX,581.3949,EUR/kW_e,firm-capacity screening comparator,PyPSA technology-data v0.14.0 (2030)
+Real discount rate,0.07,p.u. per year,cost annualization,study assumption
+Hydrogen storage lifetime,30,years,cost annualization,study screening assumption
+Hydrogen-to-power lifetime,30,years,cost annualization,study screening assumption

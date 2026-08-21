@@ -1,0 +1,527 @@
+{
+  "source_file": "time_series_60min_singleindex.csv (not redistributed; derived filtered profiles packaged)",
+  "source_sha256": "6a7f2bc571314cbf9c321cc03437691cd4be95c3a6f075e60ff99e8035c704c8",
+  "source_url": "https://data.open-power-system-data.org/time_series/2020-10-06/time_series_60min_singleindex.csv",
+  "source_doi": "10.25832/time_series/2020-10-06",
+  "source_description": "OPSD hourly ENTSO-E/TSO load, wind and solar time series",
+  "strict_country_rule": ">=95% raw coverage for load, wind and solar in every year 2015-2019",
+  "countries": [
+    "AT",
+    "BG",
+    "CH",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FR",
+    "GR",
+    "RO",
+    "SI"
+  ],
+  "n_countries": 12,
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "normalization": {
+    "load": "each year scaled to country 2015 mean load; chronology retained",
+    "wind": "country-year actual wind divided by its 99.9th percentile, clipped [0,1]",
+    "solar": "country-year actual solar divided by its 99.9th percentile, clipped [0,1]",
+    "purpose": "remove demand growth and renewable build-out; retain observed chronology/cross-country co-variation"
+  },
+  "effective_2015_capacity_proxy_mw": {
+    "AT": {
+      "wind_effective_mw_2015": 2116.964000000007,
+      "solar_effective_mw_2015": 488.0
+    },
+    "BG": {
+      "wind_effective_mw_2015": 570.0,
+      "solar_effective_mw_2015": 822.9640000000072
+    },
+    "CH": {
+      "wind_effective_mw_2015": 29.048920000000216,
+      "solar_effective_mw_2015": 201.1584500000008
+    },
+    "CZ": {
+      "wind_effective_mw_2015": 271.8269000000016,
+      "solar_effective_mw_2015": 1632.9854900000214
+    },
+    "DE": {
+      "wind_effective_mw_2015": 31905.89200000002,
+      "solar_effective_mw_2015": 24696.615000000027
+    },
+    "DK": {
+      "wind_effective_mw_2015": 4322.9573800000435,
+      "solar_effective_mw_2015": 477.8911100000013
+    },
+    "EE": {
+      "wind_effective_mw_2015": 228.8,
+      "solar_effective_mw_2015": 0.4
+    },
+    "ES": {
+      "wind_effective_mw_2015": 16888.50700000005,
+      "solar_effective_mw_2015": 5525.892000000022
+    },
+    "FR": {
+      "wind_effective_mw_2015": 7233.676000000065,
+      "solar_effective_mw_2015": 3947.446000000011
+    },
+    "GR": {
+      "wind_effective_mw_2015": 1387.7230000000054,
+      "solar_effective_mw_2015": 1933.5790000000343
+    },
+    "RO": {
+      "wind_effective_mw_2015": 2658.7230000000054,
+      "solar_effective_mw_2015": 757.7230000000054
+    },
+    "SI": {
+      "wind_effective_mw_2015": 3.23,
+      "solar_effective_mw_2015": 191.47133000000022
+    }
+  },
+  "fixed_2015_mean_load_mw": {
+    "AT": 6753.029109589041,
+    "BG": 4306.833105022831,
+    "CH": 6496.014694063927,
+    "CZ": 7248.487173515982,
+    "DE": 54736.99166666667,
+    "DK": 3746.4714257990863,
+    "EE": 905.3498630136987,
+    "ES": 28362.342579908676,
+    "FR": 53660.37808219178,
+    "GR": 5811.9880416666665,
+    "RO": 6587.243214611873,
+    "SI": 1405.2910662100458
+  },
+  "imputation": [
+    {
+      "country": "AT",
+      "year": 2015,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0007990867579908676
+    },
+    {
+      "country": "AT",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.005479452054794521,
+      "solar_missing_fraction": 0.005479452054794521
+    },
+    {
+      "country": "AT",
+      "year": 2017,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "AT",
+      "year": 2018,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "AT",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "BG",
+      "year": 2015,
+      "load_missing_fraction": 0.00011415525114155251,
+      "wind_missing_fraction": 0.00011415525114155251,
+      "solar_missing_fraction": 0.0007990867579908676
+    },
+    {
+      "country": "BG",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "BG",
+      "year": 2017,
+      "load_missing_fraction": 0.004223744292237443,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "BG",
+      "year": 2018,
+      "load_missing_fraction": 0.0028538812785388126,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "BG",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "CH",
+      "year": 2015,
+      "load_missing_fraction": 0.00011415525114155251,
+      "wind_missing_fraction": 0.00011415525114155251,
+      "solar_missing_fraction": 0.00011415525114155251
+    },
+    {
+      "country": "CH",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.005479452054794521,
+      "solar_missing_fraction": 0.0027397260273972603
+    },
+    {
+      "country": "CH",
+      "year": 2017,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.002625570776255708,
+      "solar_missing_fraction": 0.002625570776255708
+    },
+    {
+      "country": "CH",
+      "year": 2018,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "CH",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "CZ",
+      "year": 2015,
+      "load_missing_fraction": 0.00011415525114155251,
+      "wind_missing_fraction": 0.0015981735159817352,
+      "solar_missing_fraction": 0.0031963470319634705
+    },
+    {
+      "country": "CZ",
+      "year": 2016,
+      "load_missing_fraction": 0.011872146118721462,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "CZ",
+      "year": 2017,
+      "load_missing_fraction": 0.00034246575342465754,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "CZ",
+      "year": 2018,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "CZ",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "DE",
+      "year": 2015,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.003538812785388128
+    },
+    {
+      "country": "DE",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.008447488584474886,
+      "solar_missing_fraction": 0.00821917808219178
+    },
+    {
+      "country": "DE",
+      "year": 2017,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "DE",
+      "year": 2018,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "DE",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "DK",
+      "year": 2015,
+      "load_missing_fraction": 0.00011415525114155251,
+      "wind_missing_fraction": 0.00011415525114155251,
+      "solar_missing_fraction": 0.00045662100456621003
+    },
+    {
+      "country": "DK",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "DK",
+      "year": 2017,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "DK",
+      "year": 2018,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "DK",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "EE",
+      "year": 2015,
+      "load_missing_fraction": 0.003538812785388128,
+      "wind_missing_fraction": 0.0031963470319634705,
+      "solar_missing_fraction": 0.0031963470319634705
+    },
+    {
+      "country": "EE",
+      "year": 2016,
+      "load_missing_fraction": 0.0015981735159817352,
+      "wind_missing_fraction": 0.0013698630136986301,
+      "solar_missing_fraction": 0.0013698630136986301
+    },
+    {
+      "country": "EE",
+      "year": 2017,
+      "load_missing_fraction": 0.0010273972602739725,
+      "wind_missing_fraction": 0.0010273972602739725,
+      "solar_missing_fraction": 0.0010273972602739725
+    },
+    {
+      "country": "EE",
+      "year": 2018,
+      "load_missing_fraction": 0.002397260273972603,
+      "wind_missing_fraction": 0.002397260273972603,
+      "solar_missing_fraction": 0.002397260273972603
+    },
+    {
+      "country": "EE",
+      "year": 2019,
+      "load_missing_fraction": 0.00034246575342465754,
+      "wind_missing_fraction": 0.00034246575342465754,
+      "solar_missing_fraction": 0.00034246575342465754
+    },
+    {
+      "country": "ES",
+      "year": 2015,
+      "load_missing_fraction": 0.002054794520547945,
+      "wind_missing_fraction": 0.0007990867579908676,
+      "solar_missing_fraction": 0.0007990867579908676
+    },
+    {
+      "country": "ES",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "ES",
+      "year": 2017,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "ES",
+      "year": 2018,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "ES",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0005707762557077625,
+      "solar_missing_fraction": 0.0005707762557077625
+    },
+    {
+      "country": "FR",
+      "year": 2015,
+      "load_missing_fraction": 0.00011415525114155251,
+      "wind_missing_fraction": 0.00011415525114155251,
+      "solar_missing_fraction": 0.0009132420091324201
+    },
+    {
+      "country": "FR",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "FR",
+      "year": 2017,
+      "load_missing_fraction": 0.0014840182648401827,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "FR",
+      "year": 2018,
+      "load_missing_fraction": 0.0012557077625570776,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "FR",
+      "year": 2019,
+      "load_missing_fraction": 0.0005707762557077625,
+      "wind_missing_fraction": 0.0005707762557077625,
+      "solar_missing_fraction": 0.0005707762557077625
+    },
+    {
+      "country": "GR",
+      "year": 2015,
+      "load_missing_fraction": 0.00011415525114155251,
+      "wind_missing_fraction": 0.0006849315068493151,
+      "solar_missing_fraction": 0.0012557077625570776
+    },
+    {
+      "country": "GR",
+      "year": 2016,
+      "load_missing_fraction": 0.003995433789954338,
+      "wind_missing_fraction": 0.0005707762557077625,
+      "solar_missing_fraction": 0.0005707762557077625
+    },
+    {
+      "country": "GR",
+      "year": 2017,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0005707762557077625,
+      "solar_missing_fraction": 0.0005707762557077625
+    },
+    {
+      "country": "GR",
+      "year": 2018,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "GR",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.002054794520547945,
+      "solar_missing_fraction": 0.002054794520547945
+    },
+    {
+      "country": "RO",
+      "year": 2015,
+      "load_missing_fraction": 0.013470319634703196,
+      "wind_missing_fraction": 0.012442922374429224,
+      "solar_missing_fraction": 0.013356164383561644
+    },
+    {
+      "country": "RO",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "RO",
+      "year": 2017,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "RO",
+      "year": 2018,
+      "load_missing_fraction": 0.0005707762557077625,
+      "wind_missing_fraction": 0.0005707762557077625,
+      "solar_missing_fraction": 0.0005707762557077625
+    },
+    {
+      "country": "RO",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "SI",
+      "year": 2015,
+      "load_missing_fraction": 0.00011415525114155251,
+      "wind_missing_fraction": 0.00011415525114155251,
+      "solar_missing_fraction": 0.0009132420091324201
+    },
+    {
+      "country": "SI",
+      "year": 2016,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "SI",
+      "year": 2017,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "SI",
+      "year": 2018,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0,
+      "solar_missing_fraction": 0.0
+    },
+    {
+      "country": "SI",
+      "year": 2019,
+      "load_missing_fraction": 0.0,
+      "wind_missing_fraction": 0.0021689497716894978,
+      "solar_missing_fraction": 0.0
+    }
+  ],
+  "output_rows": 525600,
+  "output_sha256": "fd295d6a5e52489c8561faa51b39605c1fee4dab3bb09c627fab55c6e6c151fd",
+  "caveat": "Chronology indices are observational proxies, not ERA5/atlite capacity factors; this layer is an independent empirical robustness test.",
+  "retrieved_for_study": "2026-08-14",
+  "attribution": "Open Power System Data. 2020. Data Package Time series. Version 2020-10-06. DOI 10.25832/time_series/2020-10-06."
+}
